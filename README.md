@@ -91,6 +91,17 @@ npm run dev
 
 Open http://localhost:5173 — paste text, select strategies, and compare results.
 
+## 📦 Example
+
+A minimal runnable example is in the `example/` folder:
+
+```bash
+cd example
+python example.py
+```
+
+It demonstrates fixed-size and recursive (paragraph/sentence) chunking on sample text.
+
 ## 📖 What You'll Learn
 
 1. How chunk size affects retrieval precision and recall
